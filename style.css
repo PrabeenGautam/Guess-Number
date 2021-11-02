@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #222;
+  color: #eee;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+header {
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+
+.number-range {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#heading {
+  font-size: 2.6rem;
+  text-align: center;
+}
+
+.number {
+  font-size: 5rem;
+  width: 10rem;
+  padding: 1rem 0;
+  text-align: center;
+  background-color: #eee;
+  color: #333;
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+main {
+  height: 65vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left {
+  width: 30rem;
+  /* color: ; */
+}
+
+.message {
+  margin-bottom: 5rem;
+  font-size: 1.6rem;
+}
+
+.left p:not(.message) {
+  margin: 4rem auto;
+  font-size: 1.2rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 52rem;
+  align-items: center;
+}
+
+#input-number {
+  padding: 1rem;
+  font-family: inherit;
+  background: none;
+  color: #eee;
+  width: 15rem;
+  font-size: 4rem;
+  padding: 2rem 20px;
+  text-align: center;
+  outline: none;
+  border: 4px solid #eee;
+}
+
+.again-game {
+  font-family: inherit;
+  padding: 20px 30px;
+  margin: 20px 30px;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.again-game:hover {
+  background-color: #ccc;
+}
